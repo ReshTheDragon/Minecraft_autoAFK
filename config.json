@@ -1,0 +1,79 @@
+{
+  "bot-account": {
+      "username-1": "GOD_",
+      "password-1": "yasuonhok",
+      "username-2": "Điền tên đăng nhập cho bot 2",
+      "password-2": "Điền mật khẩu cho bot 2",
+      "username-3": "Điền tên đăng nhập cho bot 3",
+      "password-3": "Điền mật khẩu cho bot 3"
+    },
+
+  "server": {
+    "ip": "vietmine.com",
+    "port": 25565,
+    "version": "1.16.5"
+  },
+  "position": {
+    "enabled": true,
+    "x1": 66,
+    "x2": 71,
+    "y": 37,
+    "z1": 32,
+    "z2": 37
+  },
+  "opts-eat": {
+    "priority": "foodPoints",
+    "minHunger": 15,
+    "minHealth": 14,
+    "returnToLastItem": true,
+    "offhand": false,
+    "eatingTimeout": 3000,
+    "bannedFood": [
+      "rotten_flesh",
+      "pufferfish",
+      "chorus_fruit",
+      "poisonous_potato",
+      "spider_eye",
+      "cake"
+    ],
+    "strictErrors": true
+  },
+  "tags-message": {
+    "INFO": "[INFO]  ",
+    "ERR": "[ERROR] ",
+    "SUCC": "[SUCCESS] ",
+    "WARN": "[WARNING] ",
+    "DISCN": "[DISCONNECT] ",
+    "AUTH": "[AUTHENTICATION] ",
+    "RETRY": "[RETRY] "
+  },
+  "messages": {
+    "CREATE_BOT": "[INFO]  Creating bot...",
+    "IN_HUB": "[INFO] Bot has spawned in the hub.",
+    "IN_SKYBLOCK": "[INFO] Bot has spawned in the skyblock server.",
+    "LOADED_CHUNKS": "[INFO] Loaded all chunks.",
+    "RETRY_1S": "[RETRY] Retrying in 1 second...",
+    "RETRY_5S": "[RETRY] Retrying in 5 seconds...",
+    "LOGIN_COMMAND": "[AUTHENTICATION] Sent /login command.",
+    "LOGIN_SUCC": "[AUTHENTICATION] Login successful.",
+    "OPEN_SERVERS_LIST": "[INFO] Clicking the first hotbar slot to open the servers list...",
+    "OPEN_SERVERS_LIST_SUCC": "[SUCCESS] Servers list opened.",
+    "FINDING_SKYBLOCK_SERVER": "[INFO] Finding Skyblock server...",
+    "SKYBLOCK_SERVER_NOT_FOUND": "[ERROR] Skyblock server not found in the servers list.",
+    "SKYBLOCK_SERVER_FOUND": "[SUCCESS] Skyblock server found! Clicking...",
+    "WARP_COMMAND": "[INFO] Sent /warp command.",
+    "FINDING_WARP_AFK": "[INFO] Finding warp AFK...",
+    "WARP_AFK_FOUND": "[SUCCESS] Warp AFK found! Clicking...",
+    "WARP_AFK_NOT_FOUND": "[ERROR] Warp AFK not found in the warp list.",
+    "MOVING_TO_POSITION": "[INFO] Bot moving to ",
+    "MOVED_TO_POSITION_SUCC": "[SUCCESS] Bot moved.",
+    "MOVED_TO_POSITION_ERR": "[ERROR] Bot failed to move.",
+    "POSITION_DISABLED": "[WARNING] Position is disabled in the config file. Skipping...",
+    "CLICK_SUCC": "[SUCCESS] Clicked successfully.",
+    "CLICK_ERR": "[ERROR] Cannot click",
+    "BOT_DEATH": "[WARNING] Bot has died. Reloading...",
+    "BOT_REVIVE": "[INFO] Bot has been revived.",
+    "AFK_START": "[INFO] AFK started...",
+    "BOT_DISCONNECT": "[DISCONNECT] Bot disconnected from the server, reloading..."
+  }
+}
