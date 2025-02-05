@@ -161,6 +161,14 @@ function createAndConnectBot(account, password) {
       setTimeout(() => clickSlotWithRetry(bot, slot, window), 1000);
     }
   }
+  function findingcoordinationTarget(not, entity, window){
+    try{
+      
+    }catch(err){
+      console.log("Unable to find exact coordinate!");
+    }
+    return null;
+  }
   //===========================[Các loại tình huống]===========================
   // Chết
   bot.on("death", () => {
